@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:MSYS2_HOME}\\mingw64\\include\\gtk-3.0",
+                "${env:MSYS2_HOME}\\mingw64\\include\\glib-2.0",
+                "${env:MSYS2_HOME}\\mingw64\\lib\\glib-2.0\\include",
+                "${env:MSYS2_HOME}\\mingw64\\include\\cairo",
+                "${env:MSYS2_HOME}\\mingw64\\include\\pango-1.0",
+                "${env:MSYS2_HOME}\\mingw64\\include\\fribidi",
+                "${env:MSYS2_HOME}\\mingw64\\include\\atk-1.0",
+                "${env:MSYS2_HOME}\\mingw64\\include\\pixman-1",
+                "${env:MSYS2_HOME}\\mingw64\\include\\freetype2",
+                "${env:MSYS2_HOME}\\mingw64\\include\\harfbuzz",
+                "${env:MSYS2_HOME}\\mingw64\\include\\libpng16",
+                "${env:MSYS2_HOME}\\mingw64\\include\\gdk-pixbuf-2.0"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "WIN32"
+            ],
+            "compilerPath": "${env:MSYS2_HOME}\\\\mingw64\\\\bin\\\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
